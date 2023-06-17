@@ -1,8 +1,5 @@
 # ChitChat-Massenger(In-Progress)
 
-Certainly! Here's an example of a GitHub README file for a chat application built with Flutter and Firebase:
-
-```
 # Flutter Firebase Chat App
 
 This is a chat application built with Flutter and Firebase, allowing users to send and receive messages in real-time.
