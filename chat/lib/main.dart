@@ -3,8 +3,12 @@ import './screens/welcome_screen.dart';
 import './screens/login_screen.dart';
 import './screens/registration_screen.dart';
 import './screens/chat_screen.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  // initiazing firebase
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
@@ -15,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme: ThemeData.dark().copyWith(
+      theme: ThemeData.light().copyWith(
         textTheme: TextTheme(
           // ignore: deprecated_member_use
           bodyText1: TextStyle(color: Colors.black54),
