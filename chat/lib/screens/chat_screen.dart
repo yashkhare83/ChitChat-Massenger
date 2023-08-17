@@ -68,6 +68,7 @@ class _ChatScreenState extends State<ChatScreen> {
                   final msgWidget = Text(
                       style: TextStyle(color: Colors.black),
                       '$messageDtls from $msgSender');
+
                   messageWidgets.add(msgWidget);
                 }
                 return Column(
