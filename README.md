@@ -1,4 +1,4 @@
-# ChitChat-Massenger(In-Progress)
+# ChitChat-Massenger
 
 # Flutter Firebase Chat App
 
